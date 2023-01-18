@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourTour</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> -->
+</head>
+
+<body>
+
+    <header>
+        <!-- контейнер для навигации  -->
+        <div class="header-nav-container">
+
+            <!-- контейнер для логотипа -->
+            <div class="header-logo">
+                <a class="logo">
+                    <img src="images/logoYourTour.svg" width="182" height="30" alt="Логотип YourTour.">
+                </a>
+            </div>
+
+            <!-- навигация -->
+            <nav class="header-nav">
+                <ul class="header-menu">
+                    <li class="header-menu-item"><a href="#" class="header-menu-item-link">Туры</a></li>
+                    <li class="header-menu-item"><a href="#" class="header-menu-item-link">Создать тур</a></li>
+                    <li class="header-menu-item"><a href="#" class="header-menu-item-link">Отзывы</a></li>
+                    <li class="header-menu-item"><a href="#" class="header-menu-item-link">Истории</a></li>
+                </ul>
+            </nav>
+
+            <a href="tel:+79999999999" class="phone-menu-font-link">+7 999 999 99 99</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Секция интро -->
+        <section class="intro">
+            <h1 class="intro-title">Идеальные путешествия существуют</h1>
+            <p class="intro-description">Идейные соображения высшего порядка, а также рамки и место обучения
+                кадров</p>
+            <a href="#" class="intro-button">Найти тур</a>
+        </section>
+
+
+        <!-- Секция Выбери свой тур -->
+        <section class="tour-choice">
+            <h2 class="title-tour-choice">Выбери свой тур</h2>
+
+            <div class="wrapper-tour-choice-nav">
+                <!-- Список tour-choice-nav -->
+                <ul class="tour-choice-nav">
+                    <li class="tour-choice-nav-item"><label for="tour-choice-nav-item-radio1"
+                            class="tour-choice-nav-item-label"><input type="radio" id="tour-choice-nav-item-radio1"
+                                name="tour-choice-nav-item-radio"
+                                class="visually-hidden tour-choice-nav-item-radio">Популярные</input></label></li>
+                    <li class="tour-choice-nav-item"><label for="tour-choice-nav-item-radio2"
+                            class="tour-choice-nav-item-label"><input type="radio" id="tour-choice-nav-item-radio2"
+                                name="tour-choice-nav-item-radio"
+                                class="visually-hidden tour-choice-nav-item-radio">Авторские</input></label></li>
+                    <li class="tour-choice-nav-item"><label for="tour-choice-nav-item-radio3"
+                            class="tour-choice-nav-item-label"><input type="radio" id="tour-choice-nav-item-radio3"
+                                name="tour-choice-nav-item-radio"
+                                class="visually-hidden tour-choice-nav-item-radio">Походы</input></label></li>
+                    <li class="tour-choice-nav-item"><label for="tour-choice-nav-item-radio4"
+                            class="tour-choice-nav-item-label"><input type="radio" id="tour-choice-nav-item-radio4"
+                                name="tour-choice-nav-item-radio"
+                                class="visually-hidden tour-choice-nav-item-radio">Сплавы</input></label></li>
+                    <li class="tour-choice-nav-item"><label for="tour-choice-nav-item-radio5"
+                            class="tour-choice-nav-item-label"><input type="radio" id="tour-choice-nav-item-radio5"
+                                name="tour-choice-nav-item-radio"
+                                class="visually-hidden tour-choice-nav-item-radio">Велопрогулки</input></label></li>
+                </ul>
+            </div>
+
+            <!-- Список travel-list-->
+            <div class="card-container">
+                <ul class="travel-list">
+                    <li class="travel-list-item">
+                        <div class="wrapper-card wrapper-card-image1">
+                            <h3 class="travel-list-item-title">Путешествие в горы</h3>
+                            <p class="travel-list-item-description">от 80 000 руб</p>
+                            <a href="#" class="travel-list-item-button">
+
+                                <span>Подробнее</span>
+
+                                <svg class="arrow-svg" width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </li>
+
+
+                    <li class="travel-list-item">
+                        <div class="wrapper-card wrapper-card-image2">
+                            <h3 class="travel-list-item-title">Путешествие в горы</h3>
+                            <p class="travel-list-item-description">от 80 000 руб</p>
+                            <a href="#" class="travel-list-item-button">
+
+                                <span>Подробнее</span>
+                                <svg class="arrow-svg" width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </li>
+
+
+                    <li class="travel-list-item">
+                        <div class="wrapper-card wrapper-card-image3">
+                            <h3 class="travel-list-item-title">Путешествие в горы</h3>
+                            <p class="travel-list-item-description">от 80 000 руб</p>
+                            <a href="#" class="travel-list-item-button">
+                                
+                                <span>Подробнее</span>
+                                <svg class="arrow-svg" width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z" fill="white"/>
+                                    </svg>
+                            </a>
+                        </div>
+                    </li>
+
+
+                    <li class="travel-list-item">
+                        <div class="wrapper-card wrapper-card-image4">
+                            <h3 class="travel-list-item-title">Путешествие в горы</h3>
+                            <p class="travel-list-item-description">от 80 000 руб</p>
+                            <a href="#" class="travel-list-item-button">
+
+                                <span>Подробнее</span>
+                                <svg class="arrow-svg" width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z"
+                                        fill="white" />
+                                </svg>
+
+                            </a>
+                        </div>
+                    </li>
+
+
+                    <li class="travel-list-item">
+                        <div class="wrapper-card wrapper-card-image5">
+                            <h3 class="travel-list-item-title">Путешествие в горы</h3>
+                            <p class="travel-list-item-description">от 80 000 руб</p>
+                            <a href="#" class="travel-list-item-button">
+
+                                <span>Подробнее</span>
+                                <svg class="arrow-svg" width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </li>
+
+
+                    <li class="travel-list-item">
+                        <div class="wrapper-card wrapper-card-image6">
+                            <h3 class="travel-list-item-title">Путешествие в горы</h3>
+                            <p class="travel-list-item-description">от 80 000 руб</p>
+                            <a href="#" class="travel-list-item-button">
+
+                                <span>Подробнее</span>
+                                <svg class="arrow-svg" width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Секция tour-constructor -->
+        <section class="tour-constructor">
+            <h2 class="tour-constructor-title">Собери свой тур</h2>
+            <p class="tour-constructor-description">Идейные соображения высшего порядка, а также рамки и место обучения
+                кадров</p>
+            <!-- Форма Собери свой тур -->
+
+            <div class="wrapper-tour-constructor-form">
+                <form class="tour-constructor-form">
+                    <label class="tour-constructor-form-label-username form-label-font" for="username">Имя
+                        <input class="tour-constructor-form-input-username form-input-font" id="username" type="text"
+                            placeholder="Введите Ваше имя" required>
+                    </label>
+
+                    <label class="tour-constructor-form-label-email form-label-font" for="email">Email
+                        <input class="tour-constructor-form-input-email form-input-font" id="email" type="text"
+                            placeholder="example@mail.com" required>
+                    </label>
+
+                    <label class="tour-constructor-form-label-date-ot form-label-font" for="date-ot">Дата от
+                        <input class="tour-constructor-form-input-date-ot form-input-font" id="date-ot" type="date"
+                            placeholder="ДД.ММ.ГГГГ" required>
+                    </label>
+
+                    <label class="tour-constructor-form-label-direction form-label-font" for="direction">Направление
+                        <select class="tour-constructor-form-select-direction form-input-font" id="direction" required>
+                            <option class="tour-constructor-form-option" value="1">Куда хотите ехать</option>
+                        </select>
+                    </label>
+
+                    <label class="tour-constructor-form-label-tel form-label-font" for="tel">Телефон
+                        <input class="tour-constructor-form-input-tel form-input-font" id="tel" type="tel"
+                            placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" required>
+                    </label>
+
+                    <label class="tour-constructor-form-label-date-do form-label-font" for="date-do">Дата до
+                        <input class="tour-constructor-form-input-date-do form-input-font" id="date-do" type="date"
+                            placeholder="ДД.ММ.ГГГГ" required>
+                    </label>
+
+                    <label class="tour-constructor-form-label-comment form-label-font" for="comment">Комментарий
+                        <textarea class="tour-constructor-form-textarea-comment" id="comment" name="comment" rows="4"
+                            cols="50">
+                        </textarea>
+                    </label>
+
+                    <!-- Радиобаттон -->
+                    <div class="wrapper-radio form-label-font">
+                        <p class="tour-constructor-form-description form-label-font">Вам есть 18 лет?</p>
+                        <label class="tour-constructor-form-label-radio-yes" for="radio-yes">Да
+                            <input class="tour-constructor-form-input-radio-yes form-label-font" id="radio-yes"
+                                type="radio" name="tour-constructor-radio">
+                            <span class="span-tour-constructor"></span>
+                        </label>
+                        <label class="tour-constructor-form-label-radio-no" for="radio-no">Нет
+                            <input class="tour-constructor-form-input-radio-no form-label-font" id="radio-no"
+                                type="radio" name="tour-constructor-radio">
+                            <span class="span-tour-constructor"></span>
+                        </label>
+                    </div>
+
+
+                    <!-- Чекбокс -->
+                    <label class="tour-constructor-form-label-checkbox-option form-label-checkbox-font"
+                        for="tour-constructor-checkbox">
+                        <input class="visually-hidden control-input" type="checkbox" name="tour-constructor-checkbox"
+                            id="tour-constructor-checkbox" checked>
+                        <span class="control-mark"></span>
+
+                        Нажимая кнопку, я принимаю условия <a class="input-checkbox-option-link" href="#">Лицензионного
+                            договора</a>
+                    </label>
+
+                    <div class="wrapper-button">
+                        <button class="tour-constructor-form-button-submit" type="submit">Найти тур</button>
+                        <button class="tour-constructor-form-button-reset" type="reset">Сбросить</button>
+                    </div>
+
+                </form>
+            </div>
+
+
+
+
+        </section>
+
+        <!-- Секция tour-reviews -->
+        <section class="tour-reviews">
+            <h2 class="tour-reviews-title">Отзывы наших путешественников</h2>
+            <p class="tour-reviews-description">Идейные соображения высшего порядка, а также рамки и место обучения
+                кадров
+            </p>
+            <!-- Список  tour-reviews-list-->
+            <ul class="tour-reviews-list">
+                <li class="tour-reviews-item">
+                    <div class="wrapper-reviews-name-title-foto-description">
+                        <p class="tour-reviews-item-description">Идейные соображения высшего порядка, а также рамки и
+                            место
+                            обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых
+                            предложений.
+                            Идейные соображения высшего порядка, а также начало повседневной работы по формированию
+                            позиции
+                            позволяет оценить значение модели развития.</p>
+                        <div class="wrapper-reviews-name-title-foto">
+                            <div class="wrapper-reviews-name-title">
+                                <p class="tour-reviews-name">Мария</p>
+                                <p class="tour-reviews-title-tour">Тур: Вдали от дома </p>
+                            </div>
+                            <img class="tour-reviews-foto" src="images/fotoMaria.jpg" alt="Фото Марии.">
+                        </div>
+                    </div>
+                </li>
+
+                <li class="tour-reviews-item">
+                    <div class="wrapper-reviews-name-title-foto-description">
+                        <div>
+                            <p class="tour-reviews-item-description">Равным образом постоянный количественный рост и
+                                сфера
+                                нашей
+                                активности играет важную роль в формировании системы обучения кадров, соответствует
+                                насущным
+                                потребностям.</p>
+                            <p class="tour-reviews-item-description">Значимость этих проблем настолько очевидна, что
+                                дальнейшее
+                                развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие
+                                в
+                                формировании новых предложений. Повседневная практика показывает, что реализация
+                                намеченных
+                                плановых
+                                заданий в значительной степени обуславливает создание модели развития.</p>
+                        </div>
+                        <div class="wrapper-reviews-name-title-foto">
+                            <div class="wrapper-reviews-name-title">
+                                <p class="tour-reviews-name">Павел</p>
+                                <p class="tour-reviews-title-tour">Тур: Путешествие в горы </p>
+                            </div>
+                            <img class="tour-reviews-foto" src="images/fotoPavel.jpg" alt="Фото Павла.">
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Секция travel-photos -->
+        <section class="travel-photos">
+            <h2 class="travel-photos-title">Фотографии путешествий</h2>
+            <p class="travel-photos-description">Идейные соображения высшего порядка, а также рамки и место обучения
+                кадров
+            </p>
+            <!-- Список travel-photos-list -->
+            <ul class="travel-photos-list">
+                <li class="travel-photos-items">
+                    <img class="travel-photos-items-image travel-photos-wide" src="images/travelPhoto1.jpg" width="#"
+                        height="#" alt="#">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel-photos-items-image travel-photos-wide" src="images/travelPhoto2.jpg">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel-photos-items-image travel-photos-wide" src="images/travelPhoto3.jpg">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel-photos-items-image travel-photos-wide" src="images/travelPhoto4.jpg">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel=photos-items-image travel-photos-narrow" src="images/travelPhoto5.jpg">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel=photos-items-image travel-photos-narrow" src="images/travelPhoto6.jpg">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel-photos-items-image travel-photos-narrow" src="images/travelPhoto7.jpg">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel-photos-items-image travel-photos-narrow" src="images/travelPhoto8.jpg">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel-photos-items-image travel-photos-narrow" src="images/travelPhoto9.jpg">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel-photos-items-image travel-photos-wide" src="images/travelPhoto10.jpg">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel-photos-items-image travel-photos-wide" src="images/travelPhoto11.jpg">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel-photos-items-image travel-photos-wide" src="images/travelPhoto11.jpg">
+                </li>
+                <li class="travel-photos-items">
+                    <img class="travel-photos-items-image travel-photos-wide" src="images/travelPhoto12.jpg">
+                </li>
+            </ul>
+        </section>
+
+        <!-- Секция travel-stories -->
+        <section class="travel-stories">
+            <h2 class="travel-stories-title">Истории путешествий</h2>
+            <p class="travel-stories-description">Идейные соображения высшего порядка, а также рамки и место обучения
+                кадров
+            </p>
+            <!-- Список travel-stories-list -->
+            <ul class="travel-stories-list">
+
+
+                <li class="travel-stories-items travel-stories-items-background-1">
+                    <div class="wrapper-items-advantages">
+                        <h3 class="travel-stories-items-title">Автостопом в Стамбул</h3>
+                        <p class="travel-stories-item-description">Идейные соображения высшего порядка, а также рамки и
+                            место
+                            обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых
+                            предложений:
+                        </p>
+
+                        <!-- Список travel-stories-list-advantages -->
+                        <ul class="Список travel-stories-list-advantages">
+                            <li class="Список travel-stories-item-advantages">Вкусная еда</li>
+                            <li class="Список travel-stories-item-advantages">Дешевый транспорт</li>
+                            <li class="Список travel-stories-item-advantages">Красивый город</li>
+                        </ul>
+                    </div>
+                    <div class="wrapper-button-list-social">
+                        <a href="#" class="travel-stories-button">
+                            <span>Подробнее</span>
+                            <svg class="arrow-svg" width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <!-- Список travel-stories-list-social -->
+                        <ul class="travel-stories-list-social">
+                            <li class="travel-stories-items-social"><a class="travel-stories-items-social-link"
+                                    href="#">instagram</a></li>
+                            <li class="travel-stories-items-social"><a class="travel-stories-items-social-link"
+                                    href="#">facebook</a></li>
+                            <li class="travel-stories-items-social"><a class="travel-stories-items-social-link"
+                                    href="#">YouTube</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="travel-stories-items travel-stories-items-background-2">
+                    <div class="wrapper-items-advantages">
+                        <h3 class="travel-stories-items-title">Автостопом в Стамбул</h3>
+                        <p class="travel-stories-item-description">Идейные соображения высшего порядка, а также рамки и
+                            место
+                            обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых
+                            предложений.
+                        </p>
+                    </div>
+                    <div class="wrapper-button-list-social">
+                        <a href="#" class="travel-stories-button">
+                            <span>Подробнее</span>
+                            <svg class="arrow-svg" width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <!-- Список travel-stories-list-social -->
+                        <ul class="travel-stories-list-social">
+                            <li class="travel-stories-items-social"><a class="travel-stories-items-social-link"
+                                    href="#">instagram</a></li>
+                            <li class="travel-stories-items-social"><a class="travel-stories-items-social-link"
+                                    href="#">ВКонтакте</a></li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="travel-stories-items travel-stories-items-background-3">
+                    <div class="wrapper-items-advantages">
+                        <h3 class="travel-stories-items-title">Автостопом в Стамбул</h3>
+                        <p class="travel-stories-item-description">Идейные соображения высшего порядка, а также рамки и
+                            место
+                            обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых
+                            предложений.
+                        </p>
+                    </div>
+                    <div class="wrapper-button-list-social">
+                        <a href="#" class="travel-stories-button">
+                            <span>Подробнее</span>
+                            <svg class="arrow-svg" width="22" height="16" viewBox="0 0 22 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M21.7004 7.28331L15.1535 0.796818C14.7541 0.401061 14.1063 0.401061 13.7068 0.796818C13.3073 1.19266 13.3073 1.83433 13.7068 2.23017L18.5074 6.98647H1.02294C0.458032 6.98647 0 7.44029 0 7.99999C0 8.55961 0.458032 9.0135 1.02294 9.0135H18.5074L13.707 13.7698C13.3075 14.1656 13.3075 14.8073 13.707 15.2032C13.9067 15.4009 14.1686 15.5 14.4304 15.5C14.6921 15.5 14.9539 15.4009 15.1537 15.2032L21.7004 8.71667C22.0999 8.32083 22.0999 7.67915 21.7004 7.28331Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <!-- Список travel-stories-list-social -->
+                        <ul class="travel-stories-list-social">
+                            <li class="travel-stories-items-social"><a class="travel-stories-items-social-link"
+                                    href="#">instagram</a></li>
+                            <li class="travel-stories-items-social"><a class="travel-stories-items-social-link"
+                                    href="#">facebook</a></li>
+                            <li class="travel-stories-items-social"><a class="travel-stories-items-social-link"
+                                    href="#">ВКонтакте</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Секция time-travel -->
+        <section class="time-travel">
+            <img class="time-travel-image" src="images/timeTravelFoto.jpg" alt="домик в горах.">
+            <div class="wrapper-image-title-description">
+                <h3 class="time-travel-title">Пора в путешествие вместе с нами!</h3>
+                <p class="time-travel-description">Напиши на почту и узнай подробности на
+                    <a class="time-travel-description-link" href="#">yourtour@gmail.com</a>
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Футер -->
+    <footer class="your-tour-footer">
+        <h4 class="your-tour-title">Наши социальные сети</h4>
+        <!-- Список footer-social-list -->
+        <ul class="footer-social-list">
+            <li class="footer-social-item">
+                <a href="#" class="footer-social-item-link">
+                    <!-- Вставка свг инстаграм -->
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M4.66723 7C4.66723 5.71139 5.71162 4.66648 7.00028 4.66648C8.28895 4.66648 9.3339 5.71139 9.3339 7C9.3339 8.28861 8.28895 9.33352 7.00028 9.33352C5.71162 9.33352 4.66723 8.28861 4.66723 7ZM3.40571 7C3.40571 8.98522 5.01498 10.5944 7.00028 10.5944C8.98558 10.5944 10.5949 8.98522 10.5949 7C10.5949 5.01478 8.98558 3.40557 7.00028 3.40557C5.01498 3.40557 3.40571 5.01478 3.40571 7ZM9.89709 3.26309C9.89709 3.72674 10.2731 4.10331 10.7373 4.10331C11.201 4.10331 11.5776 3.72674 11.5776 3.26309C11.5776 2.79943 11.2016 2.42342 10.7373 2.42342C10.2731 2.42342 9.89709 2.79943 9.89709 3.26309ZM4.1719 12.6978C3.4894 12.6667 3.11846 12.5531 2.87193 12.4569C2.54509 12.3297 2.31213 12.1782 2.06672 11.9334C1.82188 11.6885 1.66978 11.4556 1.54312 11.1288C1.44699 10.8822 1.33333 10.5113 1.30223 9.82884C1.26831 9.09095 1.26152 8.86931 1.26152 7C1.26152 5.13069 1.26887 4.90961 1.30223 4.17116C1.33333 3.48869 1.44755 3.11834 1.54312 2.87124C1.67034 2.54443 1.82188 2.31147 2.06672 2.06607C2.31156 1.82124 2.54453 1.66914 2.87193 1.54249C3.11846 1.44636 3.4894 1.33271 4.1719 1.30162C4.90981 1.26769 5.13147 1.2609 7.00028 1.2609C8.86966 1.2609 9.09076 1.26826 9.82923 1.30162C10.5117 1.33271 10.8821 1.44693 11.1292 1.54249C11.456 1.66914 11.689 1.82124 11.9344 2.06607C12.1792 2.3109 12.3308 2.54443 12.458 2.87124C12.5541 3.11777 12.6678 3.48869 12.6989 4.17116C12.7328 4.90961 12.7396 5.13069 12.7396 7C12.7396 8.86874 12.7328 9.09039 12.6989 9.82884C12.6678 10.5113 12.5536 10.8822 12.458 11.1288C12.3308 11.4556 12.1792 11.6885 11.9344 11.9334C11.6896 12.1782 11.456 12.3297 11.1292 12.4569C10.8827 12.5531 10.5117 12.6667 9.82923 12.6978C9.09132 12.7317 8.86966 12.7385 7.00028 12.7385C5.13147 12.7385 4.90981 12.7317 4.1719 12.6978ZM4.11422 0.0424071C3.36896 0.0763328 2.86005 0.194507 2.41504 0.367528C1.95476 0.546204 1.5646 0.785945 1.17501 1.17496C0.785977 1.56397 0.546226 1.95412 0.367543 2.41494C0.194515 2.85994 0.0763359 3.36882 0.0424088 4.11405C0.00791631 4.86042 0 5.09903 0 7C0 8.90097 0.00791631 9.13958 0.0424088 9.88595C0.0763359 10.6312 0.194515 11.1401 0.367543 11.5851C0.546226 12.0453 0.785411 12.436 1.17501 12.825C1.56404 13.2141 1.9542 13.4532 2.41504 13.6325C2.86062 13.8055 3.36896 13.9237 4.11422 13.9576C4.86118 13.9915 5.09924 14 7.00028 14C8.90189 14 9.13995 13.9921 9.88634 13.9576C10.6316 13.9237 11.1405 13.8055 11.5855 13.6325C12.0458 13.4532 12.436 13.2141 12.8256 12.825C13.2146 12.436 13.4538 12.0453 13.633 11.5851C13.8061 11.1401 13.9248 10.6312 13.9582 9.88595C13.9921 9.13901 14 8.90097 14 7C14 5.09903 13.9921 4.86042 13.9582 4.11405C13.9242 3.36882 13.8061 2.85994 13.633 2.41494C13.4538 1.95468 13.2146 1.56454 12.8256 1.17496C12.4365 0.785945 12.0458 0.546204 11.5861 0.367528C11.1405 0.194507 10.6316 0.0757674 9.88691 0.0424071C9.14051 0.00848142 8.90189 0 7.00085 0C5.09924 0 4.86118 0.00791599 4.11422 0.0424071Z"
+                            fill="#A6A6A6" />
+                    </svg> instagtam
+                </a>
+            </li>
+
+            <li class="footer-social-item">
+                <a href="#" class="footer-social-item-link">
+                    <!-- Вставка свг фейсбоок -->
+                    <svg width="8" height="17" viewBox="0 0 8 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M7.98809 0H5.27107C3.6587 0 1.86529 0.678114 1.86529 3.01522C1.87316 3.82956 1.86529 4.60945 1.86529 5.48717H0V8.45529H1.92302V17H5.45665V8.39891H7.78897L8 5.47885H5.39576C5.39576 5.47885 5.40159 4.17988 5.39576 3.80265C5.39576 2.87908 6.35681 2.93197 6.41462 2.93197C6.87195 2.93197 7.76115 2.9333 7.98942 2.93197V0H7.98809Z"
+                            fill="#A6A6A6" />
+                    </svg> facebook
+                </a>
+            </li>
+            <li class="footer-social-item">
+                <a href="#" class="footer-social-item-link">
+                    <!-- Вставка свг вконтакте -->
+                    <svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M19.5395 0.805263C19.6802 0.331579 19.5395 0 18.883 0H16.6946C16.1318 0 15.8817 0.3 15.741 0.631579C15.741 0.631579 14.6312 3.37895 13.0524 5.14737C12.5366 5.66842 12.3177 5.82632 12.0363 5.82632C11.8957 5.82632 11.6924 5.66842 11.6924 5.19474V0.805263C11.6924 0.236842 11.5361 0 11.0672 0H7.62823C7.28433 0 7.06549 0.268421 7.06549 0.505263C7.06549 1.0421 7.84707 1.16842 7.94086 2.65263V5.90526C7.94086 6.61579 7.81581 6.7421 7.53444 6.7421C6.79975 6.7421 4.98648 3.99474 3.92353 0.836843C3.70469 0.252632 3.50148 0 2.93874 0H0.750317C0.125053 0 0 0.3 0 0.631579C0 1.21579 0.734686 4.12105 3.45459 7.95789C5.26785 10.5789 7.81581 12 10.1293 12C11.5205 12 11.6924 11.6842 11.6924 11.1474V9.15789C11.6924 8.52632 11.8175 8.4 12.2708 8.4C12.5991 8.4 13.1462 8.55789 14.4436 9.82105C15.9286 11.3211 16.1787 12 17.0072 12H19.1956C19.8209 12 20.1335 11.6842 19.9459 11.0684C19.7427 10.4526 19.0393 9.55263 18.1014 8.47895C17.5856 7.86316 16.8196 7.21579 16.6008 6.88421C16.2725 6.45789 16.3663 6.26842 16.6008 5.90526C16.6008 5.88947 19.2738 2.1 19.5395 0.805263Z"
+                            fill="#A6A6A6" />
+                    </svg> vkontakte
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
